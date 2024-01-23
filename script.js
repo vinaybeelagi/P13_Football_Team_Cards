@@ -179,3 +179,9 @@ const myFavoriteFootballTeam = {
   // Destructure properties from the favorite football team object
   const { sport, team, year, players } = myFavoriteFootballTeam;
 const { coachName } = myFavoriteFootballTeam.headCoach;
+// Set text content for various HTML elements
+typeOfSport.textContent = sport;
+teamName.textContent = team;
+worldCupYear.textContent = year;
+headCoach.textContent = coachName;
+
