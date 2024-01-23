@@ -175,3 +175,7 @@ const myFavoriteFootballTeam = {
 
 // Freeze the object to make it immutable
   Object.freeze(myFavoriteFootballTeam);
+
+  // Destructure properties from the favorite football team object
+  const { sport, team, year, players } = myFavoriteFootballTeam;
+const { coachName } = myFavoriteFootballTeam.headCoach;
